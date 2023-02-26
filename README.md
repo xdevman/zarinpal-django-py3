@@ -1,18 +1,22 @@
-#  zarinpal-django-py3
+# zarinpal-django-py3
+sample django zarinpal webgate with python3
 
-این یک نمونه کد برای استفاده از زرین پال در جنگو در پایتون ۳ می‌باشد
+**make django projet**
+example:
+django-admin startproject projectname
 
+**make app in django project:**
+example:
+python manage.py startapp zarinpal
 
-##  نصب ماژول Requests
+**Add variables in "Settings.py" file.**
+>#SANDBOX MODE
+> MERCHANT = "XXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX"
+> SANDBOX = True
 
-```
-pip install requests
-```
+**add "url.py" and "views.py" in your app**
 
-**add to settings.py**
+**Add this path in "urls.py" project**
+**example : (edit "appname")**
 
-> SANDBOX MODE
-
-> MERCHANT  =  "00000000-0000-0000-0000-000000000000"
-
-> SANDBOX  =  True
+> path('appname/', include('appname.urls')),
