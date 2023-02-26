@@ -3,12 +3,13 @@ sample django zarinpal webgate with python3
 
 **make django projet**
 
-(example:)
+example:
 
 > django-admin startproject projectname
 
 **make app in django project:**
-(example:)
+
+example:
 
 > python manage.py startapp zarinpal
 
@@ -23,6 +24,7 @@ sample django zarinpal webgate with python3
 **add "url.py" and "views.py" in your app**
 
 **Add this path in "urls.py" project**
-**example : (edit "appname")**
+
+example : (edit "appname")
 
 > path('appname/', include('appname.urls')),
