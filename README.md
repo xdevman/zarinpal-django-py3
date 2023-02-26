@@ -11,7 +11,9 @@ python manage.py startapp zarinpal
 
 **Add variables in "Settings.py" file.**
 >#SANDBOX MODE
+
 > MERCHANT = "XXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX"
+
 > SANDBOX = True
 
 **add "url.py" and "views.py" in your app**
