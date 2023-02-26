@@ -2,14 +2,18 @@
 sample django zarinpal webgate with python3
 
 **make django projet**
-example:
-django-admin startproject projectname
+
+(example:)
+
+> django-admin startproject projectname
 
 **make app in django project:**
-example:
-python manage.py startapp zarinpal
+(example:)
+
+> python manage.py startapp zarinpal
 
 **Add variables in "Settings.py" file.**
+
 >#SANDBOX MODE
 
 > MERCHANT = "XXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX"
