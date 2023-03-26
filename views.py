@@ -47,7 +47,7 @@ def send_request(request):
             else:
                 return {'status': False, 'code': str(response['Status'])}
             
-        return response
+        return HttpResponse(response)
     
     except requests.exceptions.Timeout:
         return {'status': False, 'code': 'timeout'}
