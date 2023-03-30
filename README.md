@@ -1,7 +1,7 @@
 # zarinpal-django-py3
 sample django zarinpal webgate with python3
 
-**make django projet**
+**make django project**
 
 example:
 
